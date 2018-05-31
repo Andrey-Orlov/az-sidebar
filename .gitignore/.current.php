@@ -114,6 +114,7 @@ echo '<li class="'.$current.'"><a href="'.get_permalink($tp->ID).'">'.remove_dac
 				<a href="#" class="js-open-tax_list"><span class="tbt_ico"></span><?php echo get_field('abc','azp_category_'.$value->term_id); ?></a>
 				<span class="aside_tax_name"><a href="<?php echo get_term_link( $value->term_id,'azp_category' ) ?>"><?php echo $value->name ?></a></span>
 			</h2>
+			
 			<ul class="tax_product_list has_sub">
 
 			<?php 
